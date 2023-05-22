@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: PaulSanga
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/NHIS
+    password: Microlab3
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+server:
+  port: '5000'
